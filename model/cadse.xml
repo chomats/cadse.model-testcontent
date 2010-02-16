@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:c-cadse description="" cst-class="fr.imag.adele.cadse.test.content.TestContentCST" version="0" id_cadse_definition="00eca828-f493-441a-b84e-b2947a1ef964" id="f48473a1-2d5e-4a89-a46f-6057878949d2" name="Model.Workspace.TestContent" xmlns:ns2="http://fr.imag.adele/fede/workspace/model">
+    <item-type hidden="false" pattern-id="${#parent.qualified-name}{.}${#name}" manager-class="fr.imag.adele.cadse.test.content.managers.ItemJPManager" display-name="ItemJP" is-abstract="false" is-root-element="true" intID="0" has-content="true" package-name="" super-type-name="148dcee3-8512-49eb-abe7-9f8d25502778" name="ItemJP" qualified-name="TestContent..ItemJP" cst-name="ITEM_JP" id="0b09859b-3ecc-4188-9d3e-ecbca3928ec4">
+        <outgoing-link hidden="false" tw-coupled="false" tw-evol-destination="immutable" tw-rev-specific="true" tw-commit="conflict" tw-update="merge" tw-evolution="immutable" isNatif="false" id="251e9f40-198c-4247-8345-2e16e3dee355" cst-name="ITEM_JP_lt_CONTENTS" intID="1" destination="d1410142-ce9a-4ac8-b733-284378daaeb5" isPart="false" isMapping="false" isRequire="false" isGroup="false" isComposition="false" isAnnotation="false" isAggregation="true" max="1" min="0" name="contents" type="bc20e834-0814-4422-a373-5f4b01f7732e"/>
+    </item-type>
+</ns2:c-cadse>
