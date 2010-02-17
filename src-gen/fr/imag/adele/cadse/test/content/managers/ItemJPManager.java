@@ -7,6 +7,7 @@ import fr.imag.adele.cadse.core.CadseException;
 import fr.imag.adele.cadse.cadseg.managers.dataModel.ItemManager;
 import fr.imag.adele.cadse.core.Item;
 import fr.imag.adele.cadse.core.ItemType;
+import fr.imag.adele.cadse.core.Link;
 import fr.imag.adele.cadse.core.LinkType;
 import fr.imag.adele.cadse.core.content.ContentItem;
 import fr.imag.adele.cadse.core.impl.var.VariableImpl;
@@ -100,6 +101,38 @@ public class ItemJPManager extends ItemManager {
 		owerItem.setExporters(
 		);
 		return cm;
+	}
+
+	/**
+		get a link 'contents' from 'ItemJP' to 'ContentItem'.
+		@generated
+	*/
+	static public Link getContentsLink(Item itemJP) {
+		return itemJP.getOutgoingLink(TestContentCST.ITEM_JP_lt_CONTENTS);
+	}
+
+	/**
+		get all link destination 'contents' from 'ItemJP' to 'ContentItem'.
+		@generated
+	*/
+	static public Item getContentsAll(Item itemJP) {
+		return itemJP.getOutgoingItem(TestContentCST.ITEM_JP_lt_CONTENTS, false);
+	}
+
+	/**
+		get resolved link destination 'contents' from 'ItemJP' to 'ContentItem'.
+		@generated
+	*/
+	static public Item getContents(Item itemJP) {
+		return itemJP.getOutgoingItem(TestContentCST.ITEM_JP_lt_CONTENTS, true);
+	}
+
+	/**
+		set a link 'contents' from 'ItemJP' to 'ContentItem'.
+		@generated
+	*/
+	static public void setContents(Item itemJP, Item value) throws CadseException {
+		itemJP.setOutgoingItem(TestContentCST.ITEM_JP_lt_CONTENTS,value);
 	}
 
 }

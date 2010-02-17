@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:c-cadse description="" cst-class="fr.imag.adele.cadse.test.content.TestContentCST" version="0" id_cadse_definition="00eca828-f493-441a-b84e-b2947a1ef964" id="f48473a1-2d5e-4a89-a46f-6057878949d2" name="Model.Workspace.TestContent" xmlns:ns2="http://fr.imag.adele/fede/workspace/model">
     <item-type hidden="false" pattern-id="${#parent.qualified-name}{.}${#name}" manager-class="fr.imag.adele.cadse.test.content.managers.ItemJPManager" display-name="ItemJP" is-abstract="false" is-root-element="true" intID="0" has-content="true" package-name="" super-type-name="148dcee3-8512-49eb-abe7-9f8d25502778" name="ItemJP" qualified-name="TestContent..ItemJP" cst-name="ITEM_JP" id="0b09859b-3ecc-4188-9d3e-ecbca3928ec4">
-        <outgoing-link hidden="false" tw-coupled="false" tw-evol-destination="immutable" tw-rev-specific="true" tw-commit="conflict" tw-update="merge" tw-evolution="immutable" isNatif="false" id="251e9f40-198c-4247-8345-2e16e3dee355" cst-name="ITEM_JP_lt_CONTENTS" intID="1" destination="d1410142-ce9a-4ac8-b733-284378daaeb5" isPart="false" isMapping="false" isRequire="false" isGroup="false" isComposition="false" isAnnotation="false" isAggregation="true" max="1" min="0" name="contents" type="bc20e834-0814-4422-a373-5f4b01f7732e"/>
+        <outgoing-link hidden="false" tw-coupled="false" tw-evol-destination="immutable" tw-rev-specific="true" tw-commit="conflict" tw-update="merge" tw-evolution="immutable" isNatif="false" cst-name="ITEM_JP_lt_CONTENTS" intID="1" destination="d1410142-ce9a-4ac8-b733-284378daaeb5" isPart="false" isMapping="false" isRequire="false" isGroup="false" isComposition="false" isAnnotation="false" isAggregation="true" max="1" min="0" name="contents" type="bc20e834-0814-4422-a373-5f4b01f7732e" id="251e9f40-198c-4247-8345-2e16e3dee355">
+            <link destinationId="6f714136-3952-4b2f-8ad0-65f39b78c445" key="content-definition" is-readonly="true" is-hidden="true" type="0d577beb-75f3-4c85-a15f-2cb7fd712caa"/>
+        </outgoing-link>
     </item-type>
+    <item type="2f77364d-7c51-4b6a-bcd9-35d99a6e7c74" id="6f714136-3952-4b2f-8ad0-65f39b78c445">
+        <attributes-value tw-rev-specific="false" id="4edf0fd3-7f01-4369-aa3d-160dbb146253" value="0" key="TW-version"/>
+        <attributes-value tw-rev-specific="false" id="bf1e2cee-0b3c-4e0f-9ca2-0187120d4670" value="0" key="committedDate"/>
+        <attributes-value tw-rev-specific="false" id="19e28d40-fd2b-4f20-a05a-10f85281bdfb" value="content-item" key="display-name"/>
+        <attributes-value tw-rev-specific="false" id="f6a0e56a-d0c2-43f1-a3e0-02e50f7b905b" value="6f714136-3952-4b2f-8ad0-65f39b78c445" key="id"/>
+        <attributes-value tw-rev-specific="false" id="c4422d27-4833-4920-acc9-9cd33738e6bb" value="true" key="isvalid"/>
+        <attributes-value tw-rev-specific="false" id="b2a2bf63-0c55-4e33-84c7-6eb222ba8dd2" value="false" key="item-hidden"/>
+        <attributes-value tw-rev-specific="false" id="f8dd1f73-f672-4277-b68b-c56d9aebc504" value="false" key="item-readonly"/>
+        <attributes-value tw-rev-specific="false" id="ae262046-3821-4b01-b6ce-0e533692a40b" value="content-item" key="name"/>
+        <attributes-value tw-rev-specific="false" id="c84eb0f9-305d-440a-a295-32ffa683e797" value="Model.Workspace.TestContent.mapping.ItemJP-manager.content-item" key="qualified-name"/>
+        <attributes-value tw-rev-specific="false" id="20e185b9-5f65-4def-9e22-6df614090aa5" value="true" key="requireNewRev"/>
+        <attributes-value tw-rev-specific="false" id="d674931c-a818-41b3-8dda-62cce15c4ef5" value="true" key="revModified"/>
+        <attributes-value tw-rev-specific="false" id="277a1cf2-ff5a-4835-a2b8-b13ec987e8de" value="false" key="extends-class"/>
+        <attributes-value tw-rev-specific="false" id="c1ca5f69-3e83-4464-ae65-9cc0e7941e97" value="${#qualified-name}" key="project-name"/>
+        <attributes-value tw-rev-specific="false" id="8d2e520b-285b-44ab-acaa-179e88e7ed21" value="true" key="has-source-folder"/>
+    </item>
 </ns2:c-cadse>
